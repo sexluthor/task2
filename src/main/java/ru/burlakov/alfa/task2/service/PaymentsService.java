@@ -81,8 +81,8 @@ public class PaymentsService {
             analyticInfo.put(Long.valueOf(item.get("category_id").toString()), new HashMap<>(){
                 {
                     put("min", item.get("min"));
-                    put("min", item.get("max"));
-                    put("min", item.get("sum"));
+                    put("max", item.get("max"));
+                    put("sum", item.get("sum"));
                 }
             });
         }
