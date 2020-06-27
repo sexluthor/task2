@@ -1,0 +1,19 @@
+spring:
+
+  jooq:
+    sql-dialect: postgres
+
+  liquibase:
+    change-log: classpath:db/changelog/master.xml
+
+  datasource:
+    username: postgres
+    password: root
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://localhost:5432/alfa2
+
+  kafka:
+    consumer:
+      group-id:
+        GROUP-TEST-3
+    bootstrap-servers: http://178.154.247.90:29092

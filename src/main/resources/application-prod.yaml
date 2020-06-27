@@ -1,0 +1,10 @@
+spring:
+
+  datasource:
+    url: jdbc:postgresql://bd:5432/alfa
+
+  kafka:
+    consumer:
+      group-id:
+        PROD-1
+#    bootstrap-servers: http://broker:9092

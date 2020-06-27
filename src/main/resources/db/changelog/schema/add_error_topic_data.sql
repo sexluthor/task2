@@ -1,0 +1,1 @@
+ALTER TABLE topic_data ADD COLUMN error BOOLEAN;
